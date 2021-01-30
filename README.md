@@ -1,5 +1,8 @@
+[![Build Status](https://travis-ci.com/rousuy/lib_pythonpro.svg?branch=main)](https://travis-ci.com/rousuy/lib_pythonpro)
+
 # lib_pythonpro
-Repo para exemplificar construção de projetos em Python
+
+Repositório para exemplificar construção de projetos em Python
 
 Link do curso: [Python Pro](https://pythonprobr.appspot.com/)
 
