@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/rousuy/lib_pythonpro.svg?branch=main)](https://travis-ci.com/rousuy/lib_pythonpro)
 [![Python 3](https://pyup.io/repos/github/rousuy/lib_pythonpro/python-3-shield.svg)](https://pyup.io/repos/github/rousuy/lib_pythonpro/)
 [![Updates](https://pyup.io/repos/github/rousuy/lib_pythonpro/shield.svg)](https://pyup.io/repos/github/rousuy/lib_pythonpro/)
+[![codecov](https://codecov.io/gh/rousuy/lib_pythonpro/branch/main/graph/badge.svg?token=HOOE5ZUQFH)](https://codecov.io/gh/rousuy/lib_pythonpro)
 
 # lib_pythonpro
 
