@@ -44,7 +44,7 @@ def find_package_data(
     Directories matching any pattern in ``exclude_directories`` will
     be ignored; by default directories with leading ``.``, ``CVS``,
     and ``_darcs`` will be ignored.
-    If ``show_ignored`` is true, then all the files that aren"t
+    If ``show_ignored`` is true, then all the files that are"nt
     included in package data are shown on stderr (for debugging
     purposes).
     Note patterns use wildcards, or can be exact paths (including
@@ -94,7 +94,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "lib_python_pro"
+PACKAGE = "rnupythontools"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Rodrigo Norio"
@@ -129,4 +129,3 @@ setup(
     ],
     zip_safe=False,
 )
-
