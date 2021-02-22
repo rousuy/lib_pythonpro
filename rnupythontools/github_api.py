@@ -11,6 +11,3 @@ def search_avatar(user):
     resp = requests.get(url)
     return resp.json()['avatar_url']
 
-
-if __name__ == '__main__':
-    print(search_avatar('rousuy'))
