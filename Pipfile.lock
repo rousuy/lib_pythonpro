@@ -2,14 +2,14 @@
     "_meta": {
         "hash": {
 <<<<<<< HEAD
-            "sha256": "0a240e9b7b4b5fc49e2f50d8ee8bad1e73c2d1fc249e3bb724cf39631f2dd11c"
-=======
 <<<<<<< HEAD
             "sha256": "e0dabd6f830b78693acf6eda4d472cabdfaf584eed78b3adff264e4c90131e7f"
 =======
             "sha256": "0a240e9b7b4b5fc49e2f50d8ee8bad1e73c2d1fc249e3bb724cf39631f2dd11c"
 >>>>>>> 44ef1139a57c7712bce1579dfe5e8e707b068a1d
->>>>>>> Configurado PipEnv
+=======
+            "sha256": "0a240e9b7b4b5fc49e2f50d8ee8bad1e73c2d1fc249e3bb724cf39631f2dd11c"
+>>>>>>> 44ef1139a57c7712bce1579dfe5e8e707b068a1d
         },
         "pipfile-spec": 6,
         "requires": {
@@ -216,8 +216,6 @@
             "version": "==2.11.1"
         },
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
         "pytest-mock": {
             "hashes": [
                 "sha256:379b391cfad22422ea2e252bdfc008edd08509029bcde3c25b2c0bd741e0424e",
@@ -228,7 +226,6 @@
         },
 =======
 >>>>>>> 44ef1139a57c7712bce1579dfe5e8e707b068a1d
->>>>>>> Configurado PipEnv
         "toml": {
             "hashes": [
                 "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
