@@ -3,7 +3,7 @@ python:
   - 3.9
 install:
   - pip install -q pipenv codecov
-  - pipenv sync --dev
+  - pipenv sync -d
 script:
   - flake8
   - pytest rnupythontools --cov=rnupythontools
