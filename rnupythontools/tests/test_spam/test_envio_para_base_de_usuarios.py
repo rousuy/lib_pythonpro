@@ -21,21 +21,20 @@ def test_qde_de_spam(sessao, usuarios):
     )
     assert len(usuarios) == enviador.enviar.call_count
 
-
-def test_parametros_de_spam(sessao):
-    Usuario(nome='Rodrigo', email='rousuy@gmail.com')
-    sessao.salvar(usuarios)
-    enviador = Mock()
-    enviador_de_spam = EnviadordeSpam(sessao, enviador)
-    enviador_de_spam.enviar_emails(
-        'foo@bar.com.br',
-        'Curso de Python',
-        'Confira os módulos fantásticos'
-    )
-    assert enviador.enviar.assert_called_once_with == (
-        'foo@bar.com.br',
-        'rousuy@gmail.com',
-        'Curso de Python',
-        'Confira os módulos fantásticos'
-    )
+    def test_parametros_de_spam(sessao):
+        Usuario(nome='Rodrigo', email='rousuy@gmail.com')
+        sessao.salvar(usuarios)
+        enviador = Mock()
+        enviador_de_spam = EnviadordeSpam(sessao, enviador)
+        enviador_de_spam.enviar_emails(
+            'foo@bar.com.br',
+            'Curso de Python',
+            'Confira os módulos fantásticos'
+        )
+        assert enviador.enviar.assert_called_once_with == (
+            'foo@bar.com.br',
+            'rousuy@gmail.com',
+            'Curso de Python',
+            'Confira os módulos fantásticos'
+        )
 

@@ -27,4 +27,3 @@ def test_remetente(destinatario):
                         'teste@teste.com',
                         'Curso Python Pro',
                         'Primeira Turma Guido Von Rossum')
-
